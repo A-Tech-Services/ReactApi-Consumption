@@ -1,0 +1,37 @@
+.card-heading{
+    text-align: center;
+  }
+  .App {
+    padding: 4rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5rem;
+    justify-content: center;
+  }
+  
+  .post-card{
+    border: 1px solid #000;
+    padding: 2rem;
+    width: 20rem;
+  }
+
+  .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+  }
+
+  .btn{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+  }
+
+.btn:hover{
+  background: #292929;
+}
